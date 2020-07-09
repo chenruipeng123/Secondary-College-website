@@ -18,13 +18,12 @@ class mysql {
     private $Host = '127.0.0.1';
 	
      /* 数据库名称 */
-    private $dbName = 'cysj';
+    private $dbName = '';
     /* 用户名 */
-    private $UserName = 'root';
+    private $UserName = '';
 
-    /* 连接密码 */
-	// private $Password = 'cx356.dzxx.rzpt.2016';
-    private $Password = 'root';	
+ 
+    private $Password = '';	
 
     /* 数据库编码 */
     private $dbCharSet = 'utf8';
