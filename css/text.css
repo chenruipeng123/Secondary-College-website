@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* 通用设置 CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #333;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+}
+
+a:hover {
+	color: #fff;
+}
+li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: #0000CC;
+}
+
+.gray {
+	color: #999;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*公共样式*/
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.mt30{
+	margin-top: 30px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.ml10 {
+	margin-left: 10px;
+	_margin-left: 6px;
+}
+
+.mt11 {
+	margin-top: 11px;
+}
+
+.mr11 {
+	margin-right: 11px;
+}
+
+.mb11 {
+	margin-bottom: 11px;
+}
+
+.ml11 {
+	margin-left: 11px;
+	_margin-left: 7px;
+}
+
+.mt12 {
+	margin-top: 12px;
+}
+
+.mr12 {
+	margin-right: 12px;
+}
+
+.mb12 {
+	margin-bottom: 12px;
+}
+
+.ml12 {
+	margin-left: 12px;
+	_margin-left: 8px;
+}
+
+
+.pt10 {
+	padding-top: 10px;
+}
+
+.pl10 {
+	padding-left: 10px;
+}
+
+.pr10 {
+	padding-right: 10px;
+}
+
+.pb10 {
+	padding-bottom: 10px;
+}

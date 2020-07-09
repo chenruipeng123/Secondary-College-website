@@ -1,0 +1,57 @@
+.focus li {
+ 	list-style-type: none;
+	 
+ }
+
+ #show-area {
+ 	width: 316px;
+ 	height: 236px;
+ 	position: relative;
+ 	margin: 0px auto;
+ 	overflow: hidden;
+ }
+
+ #show-area img {
+ 	width: 316px;
+ 	height: 236px;
+ }
+
+ #show-area ul {
+ 	position: relative;
+ 	width: 5310px;
+ 	height: 236px;
+ 	right: 0;
+ }
+
+ #show-area ul li {
+ 	float: left;
+ 	width: 316px;
+ }
+
+ /*指示器*/
+ #indicator {
+ 	width: 80px;
+ 	text-align: center;
+ 	position: absolute;
+ 	top: 220px;
+ 	left: 0;
+ 	right: 0;
+ 	margin: auto;
+ 	z-index: 1;
+ 	/*ackground-color: #00ccff;*/
+ }
+
+ #indicator div {
+ 	height: 8px;
+ 	width: 8px;
+ 	border-radius: 100%;
+ 	background-color:#ccc;
+ 	float: left;
+ 	margin-left: 5px;
+ 	opacity: 0.9;
+ 	filter: Alpha(opacity=90);
+ 	/*为了适应旧的浏览器*/
+ }
+ .onclick {
+	 background-color: chartreuse!important;
+ } 
